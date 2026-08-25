@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 20px 10%;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a{
+    text-decoration: none;
+    font-family: "Roboto", Helvetica;
+}
+
+.header_left a{
+    font-size: 30px;
+    font-weight: 700;
+    display: flex;
+    color: white;
+}
+
+.header_button ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.header_button a{
+    color: white;
+    opacity: .7;
+}
+
+.header_button a:hover {
+    opacity: 1;
+    transition: .5s;
+}
+
+
+/* hero section*/
+.hero {
+    background-color: #1f2937;
+    padding: 5rem 10% 90px 10%;
+}
+
+.hero_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6rem;
+}
+
+.left_content {
+    color: white;
+    opacity: .9;
+    letter-spacing: 1px;
+}
+
+.left_content button {
+    margin-top: 30px;
+    background-color: #3882f6; /* Warna biru tombol */
+    color: #ffffff;            /* Warna teks putih */
+    padding: 10px 32px;         /* Jarak dalam: Atas-Bawah 8px, Kiri-Kanan 30px */
+    border-radius: 8px;        /* Lengkungan di setiap sudut tombol */
+    border: none;              /* Menghilangkan garis tepi bawaan browser */
+    font-weight: bold;         /* Teks tebal */
+    font-size: 16px;           /* Ukuran teks */
+    cursor: pointer;           /* Mengubah kursor jadi ikon tangan saat di-hover */
+}
+
+.left_content button:hover {
+    background-color: #06347e;
+    transition: .5s;
+}
+
+.left_content h1 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.right_content img{
+    width: 70rem;  /* Ubah angka ini sesuai ukuran yang diinginkan (misal: 300px / 400px) */
+    max-width: 100%; /* Agar tetap responsif di layar kecil */
+    height: auto;  /* Mencegah gambar menjadi gepeng */
+    border-radius: 8px; /* Opsional: membuat sudut gambar sedikit melengkung */
+}
